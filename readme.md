@@ -3,11 +3,9 @@
 
 运行环境:
 
-    ```
     MAC 10.13.3 
     Python 3.6.4 Anaconda
-    ```
-
+    
 # 数据预处理
 
 [TF-IDF](http://www.ruanyifeng.com/blog/2013/03/tf-idf.html)
@@ -23,6 +21,23 @@
 + 词袋模型与TF-IDF联合使用:用词袋模型筛选出一些高热度词汇，再用tf-idf计算其权值,详情见[BoW_tfidf.py](./forReadme/BoW_tfidf.py)
 
 [N-gram提取特征](https://zhuanlan.zhihu.com/p/29555001)
+
+# 常用算法
+
+[机器学习算法比较](http://www.csuldw.com/2016/02/26/2016-02-26-choosing-a-machine-learning-classifier/)
+[机器学习中，模型、算法如何选择？](https://zhuanlan.zhihu.com/p/32953163)
+![](./forReadme//AL.jpg)
+
+| 算法名 | 简介 | 是否监督 | 分类 | 回归 | 参考资料 | 其他 |
+| 决策树 |
+| k-means |
+| SVM |
+| AdaBoost |
+| kNN |
+| Naive Bayes |
+| xgboost |
+| 神经网络 |
+
 
 # 模型评估
 [sklearn中的模型评估-构建评估函数](https://www.cnblogs.com/harvey888/p/6964741.html)
