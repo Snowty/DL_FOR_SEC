@@ -2,11 +2,12 @@
 《Web安全深度学习实战》的读书笔记，源码和数据均来自兜哥的[Git](https://github.com/duoergun0729/2book)，代码可能根据报错进行微调，然后加了一些注释。
 
 运行环境:
+
     ```
     MAC 10.13.3 
-
     Python 3.6.4 Anaconda
     ```
+
 # 数据预处理
 
 [TF-IDF](http://www.ruanyifeng.com/blog/2013/03/tf-idf.html)
