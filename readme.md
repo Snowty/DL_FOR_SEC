@@ -4,6 +4,7 @@
 运行环境:
     ```
     MAC 10.13.3 
+
     Python 3.6.4 Anaconda
     ```
 # 数据预处理
@@ -37,8 +38,8 @@
     + metrics.accuracy_score:准确率,A = (TP + TN) / (TP + FP + TN + FN)
     + metrics.f1_score:F = 2*P*R/(P+R)
     + metrics.confusion_matrix:混淆矩阵
-    ![](./forReadme//confusion_matrix.png)
-    ![](./forReadme//1.jpeg)
+
+    ![](./forReadme//1.png)
     
 # 一些安装包
 
