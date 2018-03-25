@@ -25,18 +25,24 @@
 # 常用算法
 
 [机器学习算法比较](http://www.csuldw.com/2016/02/26/2016-02-26-choosing-a-machine-learning-classifier/)
+
 [机器学习中，模型、算法如何选择？](https://zhuanlan.zhihu.com/p/32953163)
+
 ![](./forReadme//AL.jpg)
 
-| 算法名 | 简介 | 是否监督 | 分类 | 回归 | 参考资料 | 其他 |
-| 决策树 |
-| k-means |
-| SVM |
-| AdaBoost |
-| kNN |
-| Naive Bayes |
-| xgboost |
-| 神经网络 |
+
+
+|    算法名     |     简介        |  Reference                                     |
+| :------------|:--------------  | :---------------------------------------------- |
+|    决策树     |   if-then      |   [【机器学习】决策树（上）——从原理到算法实现](https://blog.csdn.net/HerosOfEarth/article/details/52347820)|
+|    SVM       |   二分类        | [支持向量机(SVM)是什么意思？](https://www.zhihu.com/question/21094489) |
+|    k-means   |   聚类          | [从零开始实现Kmeans聚类算法](https://blog.csdn.net/u013719780/article/details/78413770)       |
+|    kNN       |   找出最靠近的k个样本 | [机器学习（一）——K-近邻（KNN）算法](https://www.cnblogs.com/ybjourney/p/4702562.html)|
+|    Naive Bayes |  基于概率论的分类           | [深入理解朴素贝叶斯（Naive Bayes）](https://blog.csdn.net/li8zi8fa/article/details/76176597)|
+|    AdaBoost   |   弱分类器加权集合 | [简单易学的机器学习算法——AdaBoost](https://blog.csdn.net/google19890102/article/details/46376603)|
+|    gbdt       || [简单易学的机器学习算法——梯度提升决策树GBDT](https://blog.csdn.net/google19890102/article/details/51746402)|
+|    xgboost    || [xgboost入门与实战（原理篇）](https://blog.csdn.net/sb19931201/article/details/52557382)|
+
 
 
 # 模型评估
