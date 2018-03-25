@@ -1,14 +1,17 @@
 # 前言
-《Web安全深度学习实战》的读书笔记，源码和数据均来自兜哥的[Git](https://github.com/duoergun0729/2book),代码可能根据报错进行微调,然后加了一些注释。
+《Web安全深度学习实战》的读书笔记，源码和数据均来自兜哥的[Git](https://github.com/duoergun0729/2book)，代码可能根据报错进行微调，然后加了一些注释。
 
 运行环境:
+    ```
     MAC 10.13.3 
     Python 3.6.4 Anaconda
-
+    ```
 # 数据预处理
 
 [TF-IDF](http://www.ruanyifeng.com/blog/2013/03/tf-idf.html)
+
 [余弦相似性](http://www.ruanyifeng.com/blog/2013/03/cosine_similarity.html)
+
 [TF-IDF、词袋模型与特征工程](https://segmentfault.com/a/1190000011480420)
 + 词袋模型:如果一个单词在文档中出现不止一次，就统计其出现的次数，词袋在词集的基础上加入了频率这个维度，使统计拥有更好的效果，通常我们在应用中都选用词袋模型。
 + TF-IDF:
@@ -34,7 +37,8 @@
     + metrics.accuracy_score:准确率,A = (TP + TN) / (TP + FP + TN + FN)
     + metrics.f1_score:F = 2*P*R/(P+R)
     + metrics.confusion_matrix:混淆矩阵
-    ![]("./forReadme//confusion_matrix.png")
+    ![](./forReadme//confusion_matrix.png)
+    ![](./forReadme//1.jpeg)
     
 # 一些安装包
 
